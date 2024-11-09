@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>QRGENERATOR</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <h2>Generate a QR Code</h2>
+        <p>Enter any URL below to generate a QR code that you can download and share.</p>
+        <form action="/generate" method="post">
+            <label for="url">Enter URL:</label>
+            <input type="url" id="url" name="url" placeholder="https://example.com" required>
+            <button type="submit">Generate QR Code</button>
+        </form>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us for queries:</p>
+        <p>Email: theamrendersingh@gmail.com | Phone: 7417641505</p>
+    </footer>
+</body>
+</html>
